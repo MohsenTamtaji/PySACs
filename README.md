@@ -10,6 +10,7 @@ SVR model is trained based on 2104 data in the literature for graphene-based sin
 ************************************************************
 
 *Requirments:
+
 1-rdkit (https://www.rdkit.org/docs/Install.html)
 
 2-mendleev(https://pypi.org/project/mendeleev/)
