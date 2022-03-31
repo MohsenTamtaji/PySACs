@@ -1,5 +1,5 @@
 # PySAC
-A Python based Machine Lreaning (ML) algorithm for the Gibbs free enegy of various intermediates on single atom catalysts (SACs)
+A Python based Machine Lreaning (ML) algorithm for the Gibbs free enegy of various intermediates on single atom catalysts # (SACs)
 ************************************************************
 Developed by Mohsen Tamtaji (mtamtaji@connect.ust.hk) under supervision of Professor Tom Luo at HKUST
 
