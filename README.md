@@ -1,11 +1,11 @@
 # PySAC
-A Python based Machine Lreaning (ML) algorithm for the Gibbs free enegy of various intermediates on single atom catalysts # (SACs)
+A Python based Machine Lreaning (ML) algorithm for the Gibbs free enegy of various intermediates on single atom catalysts (SACs)
 ************************************************************
 Developed by Mohsen Tamtaji (mtamtaji@connect.ust.hk) under supervision of Professor Tom Luo at HKUST
 
 The developed ML algorithm can be used for the prediction of Gibbs free energy of N2*, H*, OH*, O*, OOH*, COOH*, CO*, and CHO* intermediates for NRR, HER, ORR, and CO2RR
 
-Support vector regression (SVR) model using scikit-learn package is trained based on 2104 DFT-calculated data which is produced by our group and also collected from literature for graphene-based and porphyrin-based SACs
+Support vector regression model (SVR) using scikit-learn package is trained based on 2104 DFT-calculated data which is produced by our group and also collected from literature for graphene-based and porphyrin-based SACs
 
 The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) embedded into nitrogen-doped graphen- and porphyrin-based SACs with the structures of TM@N4, TM@N3C1, TM@N2C2, TM@N1C3, TM@C4, TM@C3, and TM@C2. It distinguishes the difference effect of pyrrolic and pyridinic nitrogen on the Gibbs free energy.
 
@@ -23,7 +23,7 @@ The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) emb
 
 ************************************************************
 
-# Run the program:
+# Run PySAC:
 
 Note: there is not "pip install" of this version yet, so you need to download the ML algorithm and run the program as follows:
 
