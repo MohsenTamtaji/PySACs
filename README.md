@@ -23,7 +23,7 @@ The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) emb
 
 ************************************************************
 
-# Run PySAC:
+# Running PySAC:
 
 Note: there is not "pip install" of this version yet, so you need to download the ML algorithm and run the program as follows:
 
@@ -34,6 +34,11 @@ Note: there is not "pip install" of this version yet, so you need to download th
 3- Download the PySAC.py and put into your directory, open in your PyCharm, Spider, or other Python environments, change the directory (Location) and filename in the PySAC.py file and run the code. The program will generate 3 figures for HER, ORR, and CO2RR and also will give you the overpotential and limiting potential of ORR. The free energy of *N2, *H, *OH, *O, *OOH, *COOH, *CO, and *CHO intermediates will be wrote into Results.txt file which will be saved in your directory.
 
 4- Enjoy :)
+
+************************************************************
+
+# Contributing training data
+We are very interested to recieve community contributions to the training data and re-train the PySAC model to make it more accurate and more general for graphene- and porphyrin-based and also other SAC systems. Please contact us though mtamtaji@connect.ust.hk, so that we may incorporate your data into PySAC. Thanks for your contribution. 
 
 ************************************************************
 
