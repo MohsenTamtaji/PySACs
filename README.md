@@ -5,9 +5,9 @@ Developed by Mohsen Tamtaji (mtamtaji@connect.ust.hk) Under supervision of Profe
 
 ML algorithm for the prediction of Gibbss free energy of N2*, H*, OH*, O*, OOH*, COOH*, CO*, and CHO* intermediates for NRR, HER, ORR, and CO2RR
 
-SVR model is trained based on 2104 data in the literature for graphene-based SACs
+SVR model is trained based on 2104 data in the literature for graphene-based and porphyrin-based SACs
 
-The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) embedded into nitrogen-doped graphen-based SACs with the structures of TM@N4, TM@N3C1, TM@N2C2, TM@N1C3, TM@C4, TM@C3, and TM@C2. It distinguished the effect of pyrrolic and pyridinic nitrogen in SAC structre.
+The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) embedded into nitrogen-doped graphen- and porphyrin-based SACs with the structures of TM@N4, TM@N3C1, TM@N2C2, TM@N1C3, TM@C4, TM@C3, and TM@C2. It distinguished the effect of pyrrolic and pyridinic nitrogen in SAC structre.
 
 ************************************************************
 
