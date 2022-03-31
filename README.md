@@ -9,7 +9,7 @@ The developed ML algorithm can be used for the prediction of Gibbs free energy (
 
 Support vector regression model (SVR) using scikit-learn package is trained based on 2104 DFT-calculated data which is produced by our group and also collected from literature for graphene-based and porphyrin-based SACs
 
-The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) embedded into nitrogen-doped graphen- and porphyrin-based SACs with the structures of TM@N4, TM@N3C1, TM@N2C2, TM@N1C3, TM@C4, TM@C3, and TM@C2. It distinguishes the difference effect of pyrrolic and pyridinic nitrogen on the Gibbs free energy.
+The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) embedded into nitrogen-doped graphen- and porphyrin-based SACs with the structures of TM@N4, TM@N3C1, TM@N2C2, TM@N1C3, TM@C4, TM@C3, TM@N1C1, TM@N2, and TM@C2. It distinguishes the difference effect of pyrrolic and pyridinic nitrogen on the Gibbs free energy.
 
 ************************************************************
 
