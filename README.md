@@ -1,4 +1,4 @@
-# PySAC
+# PySACs
 
 A Python based Machine Lreaning (ML) algorithm for the Gibbs free enegy (ΔG) of various intermediates on single atom catalysts (**SACs**)
 ************************************************************
