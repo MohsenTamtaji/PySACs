@@ -31,7 +31,7 @@ Note: there is not "pip install" of this version yet, so you need to download th
 
 2- Put the .mol file of your graphen-based SAC into your directory (you need to prepare .mol file of SAC structure by using Avogadro or other softwares. You may chack the Test.mol file)
 
-3- Download the PySAC.py and put into your directory, open in your PyCharm, Spider, or other Python environments, change the directory (Location) and filename in the PySAC.py file and run the code. The program will generate 3 figure for HER, ORR, and CO2RR and also will give you the overpotential and limiting potential of ORR. The free energy of *N2, *H, *OH, *O, *OOH, *COOH, *CO, and *CHO intermediates will be wrote into Results.txt file which will be saved in your directory.
+3- Download the PySAC.py and put into your directory, open in your PyCharm, Spider, or other Python environments, change the directory (Location) and filename in the PySAC.py file and run the code. The program will generate 3 figures for HER, ORR, and CO2RR and also will give you the overpotential and limiting potential of ORR. The free energy of *N2, *H, *OH, *O, *OOH, *COOH, *CO, and *CHO intermediates will be wrote into Results.txt file which will be saved in your directory.
 
 4- Enjoy :)
 
