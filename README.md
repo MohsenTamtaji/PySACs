@@ -21,8 +21,11 @@ SVR model is trained based on 2104 data in the literature for graphene-based sin
 ************************************************************
 
 *Run the program:
+
 1- Download the PySAC2.sav and Propertyoriginal.pkl into your directory
+
 2- Run the PySAC.py in your device
+
 3- Enjoy
 
 
