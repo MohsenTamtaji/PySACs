@@ -1,5 +1,5 @@
 # PySAC
-A Python based Machine Lreaning (ML) algorithm for the Gibbs free enegy (ΔG) of various intermediates on single atom catalysts (SACs)
+A Python based Machine Lreaning (ML) algorithm for the Gibbs free enegy (ΔG) of various intermediates on single atom catalysts (**SACs**)
 ************************************************************
 Developed by Mohsen Tamtaji (mtamtaji@connect.ust.hk) under supervision of Professor Tom Luo at HKUST
 
@@ -13,23 +13,23 @@ The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) emb
 
 # Requirments:
 
-1-rdkit (https://www.rdkit.org/docs/Install.html)
+1-[rdkit](https://www.rdkit.org/docs/Install.html)
 
-2-mendleev(https://pypi.org/project/mendeleev/)
+2-[mendleev](https://pypi.org/project/mendeleev/)
 
-3- matplotlib
+3- [matplotlib](https://matplotlib.org/stable/users/installing/index.html)
 
-4- numpy
+4- [numpy](https://numpy.org/install/)
 
 ************************************************************
 
 # Running PySAC:
 
-Note: there is not "pip install" of this version yet, so you need to download the ML algorithm and run the program as follows:
+Note: There is not "pip install" of this version yet, so you need to download the ML algorithm and run the program as follows:
 
 1- Download the PySAC2.sav and Propertyoriginal.pkl files into your directory
 
-2- Put the .mol file of your graphen-based SAC into your directory (you need to prepare .mol file of SAC structure by using Avogadro or other softwares. You may chack the Test.mol file)
+2- Put the .mol file of your graphen-based SAC into your directory (you need to prepare .mol file of SAC structure by using Avogadro or other softwares. You may check the Test.mol file)
 
 3- Download the PySAC.py and put into your directory, open in your PyCharm, Spider, or other Python environments, change the directory (Location) and filename in the PySAC.py file and run the code. The program will generate 3 figures for HER, ORR, and CO2RR and also will give you the overpotential and limiting potential of ORR. The free energy of *N2, *H, *OH, *O, *OOH, *COOH, *CO, and *CHO intermediates will be wrote into Results.txt file which will be saved in your directory.
 
