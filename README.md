@@ -28,4 +28,12 @@ SVR model is trained based on 2104 data in the literature for graphene-based sin
 
 3- Enjoy
 
+************************************************************
 
+*Citation:
+
+For the citation, please cire the following papers:
+
+1- DOI: 10.1039/D1TA08337F 
+
+2- https://doi.org/10.1021/acsanm.1c01436
