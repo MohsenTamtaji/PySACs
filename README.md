@@ -1,8 +1,8 @@
 # PySACs
 
-A Python based Machine Learning (ML) algorithm for the Gibbs free enegy (ΔG) of various intermediates on single atom catalysts (**SACs**)
+A Python-based Machine Learning (ML) algorithm for the Gibbs free enegy (ΔG) of various intermediates on single atom catalysts (**SACs**)
 ************************************************************
-Developed by Mohsen Tamtaji (mtamtaji@connect.ust.hk) under supervision of Professor Tom Luo at HKUST
+Developed by Mohsen Tamtaji (mtamtaji@connect.ust.hk) under the supervision of Professor Tom Luo at HKUST
 
 The developed ML algorithm can be used for the prediction of Gibbs free energy (ΔG (eV)) of *N2, *H, *OH, *O, *OOH, *COOH, *CO, and *CHO intermediates for NRR, HER, ORR, and CO2RR
 
