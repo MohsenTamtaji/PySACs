@@ -3,7 +3,7 @@ A Python based Machine Lreaning (ML) algorithm for the Gibbs free enegy of vario
 ************************************************************
 Developed by Mohsen Tamtaji (mtamtaji@connect.ust.hk) under supervision of Professor Tom Luo at HKUST
 
-The developed ML algorithm can be used for the prediction of Gibbs free energy of N2*, H*, OH*, O*, OOH*, COOH*, CO*, and CHO* intermediates for NRR, HER, ORR, and CO2RR
+The developed ML algorithm can be used for the prediction of Gibbs free energy (ΔG (eV)) of *N2, *H, *OH, *O, *OOH, *COOH, *CO, and *CHO intermediates for NRR, HER, ORR, and CO2RR
 
 Support vector regression model (SVR) using scikit-learn package is trained based on 2104 DFT-calculated data which is produced by our group and also collected from literature for graphene-based and porphyrin-based SACs
 
