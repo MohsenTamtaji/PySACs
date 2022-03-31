@@ -1,6 +1,6 @@
 # PySACs
 
-A Python based Machine Lreaning (ML) algorithm for the Gibbs free enegy (ΔG) of various intermediates on single atom catalysts (**SACs**)
+A Python based Machine Learning (ML) algorithm for the Gibbs free enegy (ΔG) of various intermediates on single atom catalysts (**SACs**)
 ************************************************************
 Developed by Mohsen Tamtaji (mtamtaji@connect.ust.hk) under supervision of Professor Tom Luo at HKUST
 
