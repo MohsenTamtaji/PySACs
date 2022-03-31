@@ -1,17 +1,17 @@
 # PySAC
 A python based Machine Lreaning (ML) algorithm for the gibbs free enegy of various intermediates on single atom catalysts (SACs)
 ************************************************************
-Developed by Mohsen Tamtaji (mtamtaji@connect.ust.hk) Under supervision of Professor Tom Luo at HKUST
+Developed by Mohsen Tamtaji (mtamtaji@connect.ust.hk) under supervision of Professor Tom Luo at HKUST
 
 ML algorithm for the prediction of Gibbss free energy of N2*, H*, OH*, O*, OOH*, COOH*, CO*, and CHO* intermediates for NRR, HER, ORR, and CO2RR
 
-SVR model is trained based on 2104 data in the literature for graphene-based and porphyrin-based SACs
+Support vector regression (SVR) model using scikit-learn package is trained based on 2104 DFT data which is produced by the our group and also collected from literature for graphene-based and porphyrin-based SACs
 
 The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) embedded into nitrogen-doped graphen- and porphyrin-based SACs with the structures of TM@N4, TM@N3C1, TM@N2C2, TM@N1C3, TM@C4, TM@C3, and TM@C2. It distinguished the effect of pyrrolic and pyridinic nitrogen in SAC structre.
 
 ************************************************************
 
-*Requirments:
+# Requirments:
 
 1-rdkit (https://www.rdkit.org/docs/Install.html)
 
@@ -23,7 +23,7 @@ The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) emb
 
 ************************************************************
 
-*Run the program:
+# Run the program:
 
 Note: there is not "pip install" of this version yet, so you need to download the ML algorithm and run the program as follows:
 
@@ -37,7 +37,7 @@ Note: there is not "pip install" of this version yet, so you need to download th
 
 ************************************************************
 
-*Citation:
+# Citation:
 
 For the citation, please cite the following papers:
 
