@@ -1,6 +1,6 @@
 # PySAC
 
-![SAC](https://drive.google.com/file/d/1IfrWT2mqcGiShfGAaYHisBd8WfL96GLE/view?usp=sharing)
+![SAC](https://github.com/MohsenTamtaji/PySAC/blob/09c3272990b3c9772fadb94f36cd25eefc11d0b5/Figure8%20-%20Copy%20(2).png)
 
 A Python based Machine Lreaning (ML) algorithm for the Gibbs free enegy (ΔG) of various intermediates on single atom catalysts (**SACs**)
 ************************************************************
