@@ -11,7 +11,9 @@ The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) emb
 
 ************************************************************
 
-# Requirments:
+# Requirments and Dependencies:
+
+PySAC needs the following pakages:
 
 1-[rdkit](https://www.rdkit.org/docs/Install.html)
 
