@@ -24,7 +24,7 @@ IntProperties=[[ 1,  2,        2,       1,   1,   1,   1,   1,    1,     1   ],#
                [ 0,  0,        0,       0,   0,   1,   0,   0,    1,     0   ],#Numbers of atoms in the third ring
                [ 0,  0,        0,       0,   0,   1,   0,   0,    1,     0   ]]#Atomic_number of atoms in the third ring
 
-MLModel = '\PySAC2.sav' #The name of ML model
+MLModel = '\PySACs.sav' #The name of ML model
 filename='\Test.mol' # Put the mol file of your SAC structure into your directory
 loaded_model = pickle.load(open(Location+MLModel, 'rb'))# load the ML model
 mol = Chem.MolFromMolFile(Location+filename)
@@ -51,8 +51,8 @@ q = rdqueries.AtomNumEqualsQueryAtom(6)#C
 CTM=len(mol.GetAtomsMatchingQuery(q))
 q = rdqueries.AtomNumEqualsQueryAtom(7)#N
 NTM=len(mol.GetAtomsMatchingQuery(q))
-
-Property=np.zeros((len(Intermediates),21))
+Propertyoriginal = pickle.load(open(Location+'\Propertyoriginal.pkl', 'rb'))
+Property=np.zeros((len(Intermediates),np.size(Propertyoriginal[0,:])))
 i=0
 for Species in Intermediates:
     elementname = element(TMsymbol)
@@ -79,24 +79,24 @@ for Species in Intermediates:
         Property[i][6] = -0.7
     elif  m== 'Hg':
         Property[i][6] = -0.5
-    Property[i][7] = NTM  # (df['N/TM'][i] - min(df['N/TM'])) / (max(df['N/TM']) - min(df['N/TM']))
-    Property[i][8] =  CTM # (df['C/TM'][i] - min(df['C/TM'])) / (max(df['C/TM']) - min(df['C/TM']))
-    Property[i][9] =  CTM/(CTM+NTM)*100 # (df['%C'][i] - min(df['%C'])) / (max(df['%C']) - min(df['%C']))
-    Property[i][10] = NN   # (df['NN'][i] - min(df['NN'])) / (max(df['NN']) - min(df['NN']))
-    Property[i][11] = NC   # (df['NC'][i] - min(df['NC'])) / (max(df['NC']) - min(df['NC']))
-    Property[i][12] = Npy   # (df['Npy'][i] - min(df['Npy'])) / (max(df['Npy']) - min(df['Npy']))
-    Property[i][13] = Npr   # (df['Npr'][i] - min(df['Npr'])) / (max(df['Npr']) - min(df['Npr']))
-    Property[i][14] = IntProperties[0][Intermediates.index(Species)]
-    Property[i][15] = IntProperties[1][Intermediates.index(Species)]
-    Property[i][16] = IntProperties[2][Intermediates.index(Species)]
-    Property[i][17] = IntProperties[3][Intermediates.index(Species)]
-    Property[i][18] = IntProperties[4][Intermediates.index(Species)]
-    Property[i][19] = IntProperties[5][Intermediates.index(Species)]
-    Property[i][20] = IntProperties[6][Intermediates.index(Species)]
+    Property[i][7] = NTM
+    Property[i][8] =  CTM
+    Property[i][9] =  CTM/(CTM+NTM)*100
+    Property[i][10] = NN   #
+    Property[i][11] = NC   #
+    Property[i][12] = Npy   #
+    Property[i][13] = Npr   #
+    Property[i][14] = (elementname.nvalence()%2)/2*2+1  # Spin multiplicity of SACs
+    Property[i][15] = IntProperties[0][Intermediates.index(Species)]
+    Property[i][16] = IntProperties[1][Intermediates.index(Species)]
+    Property[i][17] = IntProperties[2][Intermediates.index(Species)]
+    Property[i][18] = IntProperties[3][Intermediates.index(Species)]
+    Property[i][19] = IntProperties[4][Intermediates.index(Species)]
+    Property[i][20] = IntProperties[5][Intermediates.index(Species)]
+    Property[i][21] = IntProperties[6][Intermediates.index(Species)]
     i+=1
-Propertyoriginal = pickle.load(open(Location+'\Propertyoriginal.pkl', 'rb'))
 #Normalizing the input data between 0 and 1
-for i in range(21):
+for i in range(np.size(Propertyoriginal[0,:])):
     Property[:,i]=(Property[:,i]-np.min(Propertyoriginal[:,i]))/(np.max(Propertyoriginal[:,i])-np.min(Propertyoriginal[:,i]))
 Response=loaded_model.predict(Property)
 
