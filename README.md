@@ -13,13 +13,13 @@ The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) emb
 
 ************************************************************
 
-![SAC](https://github.com/MohsenTamtaji/PySAC/blob/09c3272990b3c9772fadb94f36cd25eefc11d0b5/Figure8%20-%20Copy%20(2).png)
+![SAC](https://github.com/MohsenTamtaji/PySACs/blob/09c3272990b3c9772fadb94f36cd25eefc11d0b5/Figure8%20-%20Copy%20(2).png)
 
 ************************************************************
 
 # Requirments and Dependencies:
 
-PySAC needs the following pakages:
+PySACs needs the following pakages:
 
 1-[rdkit](https://www.rdkit.org/docs/Install.html)
 
@@ -31,7 +31,7 @@ PySAC needs the following pakages:
 
 ************************************************************
 
-# Running PySAC:
+# Running PySACs:
 
 Note: There is not "pip install" of this version yet, so you need to download the ML algorithm and run the program as follows:
 
@@ -46,7 +46,7 @@ Note: There is not "pip install" of this version yet, so you need to download th
 ************************************************************
 
 # Contributing training data
-We are very interested to recieve community contributions to the training data and re-train the PySAC model to make it more accurate and more general for graphene- and porphyrin-based and also other SAC systems. Please contact us though mtamtaji@connect.ust.hk, so that we may incorporate your data into PySAC. Thanks for your contribution. 
+We are very interested to recieve community contributions to the training data and re-train the PySACs model to make it more accurate and more general for graphene- and porphyrin-based and also other SAC systems. Please contact us though mtamtaji@connect.ust.hk, so that we may incorporate your data into PySACs. Thanks for your contribution. 
 
 ************************************************************
 
