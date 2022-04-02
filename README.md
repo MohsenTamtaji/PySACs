@@ -7,7 +7,7 @@ Developed by Mohsen Tamtaji (mtamtaji@connect.ust.hk) under the supervision of P
 
 The developed ML algorithm can be used for the prediction of Gibbs free energy (ΔG (eV)) of *N2, *H, *OH, *O, *OOH, *COOH, *CO, and *CHO intermediates for NRR, HER, ORR, and CO2RR
 
-Support vector regression model (SVR) using scikit-learn package is trained based on 2104 DFT-calculated data which is produced by our group and also collected from literature for graphene-based and porphyrin-based SACs
+Support vector regression model (SVR) using scikit-learn package is trained based on 2104 DFT-calculated data which is produced by our group and also collected data from the literature for graphene-based and porphyrin-based SACs
 
 The ML model is applicable for all the 3d, 4d, and 5d transition metals (TM) embedded into nitrogen-doped graphen- and porphyrin-based SACs with the structures of TM@N4, TM@N3C1, TM@N2C2, TM@N1C3, TM@C4, TM@C3, TM@N1C1, TM@N2, and TM@C2. It distinguishes the difference effect of pyrrolic and pyridinic nitrogen on the Gibbs free energy.
 
@@ -45,7 +45,7 @@ Note: There is not "pip install" of this version yet, so you need to download th
 
 ************************************************************
 
-# Contributing training data
+# Contributing training data:
 We are very interested to recieve community contributions to the training data and re-train the PySACs model to make it more accurate and more general for graphene- and porphyrin-based and also other SAC systems. Please contact us though mtamtaji@connect.ust.hk, so that we may incorporate your data into PySACs. Thanks for your contribution. 
 
 ************************************************************
