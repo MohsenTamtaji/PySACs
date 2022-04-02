@@ -54,6 +54,6 @@ We are very interested to recieve community contributions to the training data a
 
 For the citation, please cite the following papers:
 
-1- DOI: 10.1039/D1TA08337F 
+1- DOI: [10.1039/D1TA08337F](https://pubs.rsc.org/en/content/articlehtml/2022/ta/d1ta08337f)
 
 2- https://doi.org/10.1021/acsanm.1c01436
