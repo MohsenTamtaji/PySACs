@@ -46,7 +46,7 @@ Note: There is not "pip install" of this version yet, so you need to download th
 ************************************************************
 
 # Contributing training data:
-We are very interested to recieve community contributions to the training data and re-train the PySACs model to make it more accurate and more general for graphene- and porphyrin-based and also other SAC systems. Please contact us though mtamtaji@connect.ust.hk, so that we may incorporate your data into PySACs. Thanks for your contribution. 
+We are very interested to recieve community contributions to the training data and re-train the PySACs model to make it more accurate and more general for graphene- and porphyrin-based and also other SAC systems. Please kindly contact us though mtamtaji@connect.ust.hk, so that we will incorporate your data into PySACs. Thanks for your contribution. 
 
 ************************************************************
 
